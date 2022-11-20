@@ -18,21 +18,26 @@
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4D927EAC","properties":[],"isDnd":false,"objectId":{"name":"oTitleMenu","path":"objects/oTitleMenu/oTitleMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":672.0,"y":448.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6CE8CF7D","properties":[],"isDnd":false,"objectId":{"name":"oMusicMainMenu1","path":"objects/oMusicMainMenu1/oMusicMainMenu1.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":320.0,"y":288.0,},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"MountainsNear","spriteId":{"name":"sMountainsNear","path":"sprites/sMountainsNear/sMountainsNear.yy",},"colour":4294967295,"x":0,"y":640,"htiled":true,"vtiled":false,"hspeed":0.18,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"MountainsFar","spriteId":{"name":"sMountainsFar","path":"sprites/sMountainsFar/sMountainsFar.yy",},"colour":4294967295,"x":0,"y":640,"htiled":true,"vtiled":false,"hspeed":0.2,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Title","spriteId":{"name":"sSinscape","path":"sprites/sSinscape/sSinscape.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","spriteId":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":400,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
   ],
   "inheritLayers": false,
   "creationCodeFile": "${project_dir}/rooms/MainMenu/RoomCreationCode.gml",
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_4D927EAC","path":"rooms/MainMenu/MainMenu.yy",},
+    {"name":"inst_6CE8CF7D","path":"rooms/MainMenu/MainMenu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 1366,
-    "Height": 768,
+    "Width": 2528,
+    "Height": 1408,
     "persistent": false,
   },
   "viewSettings": {

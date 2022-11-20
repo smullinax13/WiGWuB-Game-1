@@ -17,7 +17,7 @@
   "soundFile": "snCrossbowFiring.mp3",
   "duration": 0.439375,
   "parent": {
-    "name": "Sounds",
-    "path": "folders/Sounds.yy",
+    "name": "Weapons",
+    "path": "folders/Sounds/Weapons.yy",
   },
 }
