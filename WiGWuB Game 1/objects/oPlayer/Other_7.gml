@@ -1,5 +1,5 @@
 /// @description Footsteps
-					//Does not work currently. Soiunds only plays once every other step, as there are two steps per animation.
+					//Does not work currently. Sounds only plays once every other step, as there are two steps per animation.
 //Below also shows how to play random sounds.
 
 //if (sprite_index == sPlaceholderCharacterRunning) 

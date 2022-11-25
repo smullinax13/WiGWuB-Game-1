@@ -35,7 +35,6 @@ function PlayerState_Free()
 		vsp=0;
 	}
 	y = y + vsp;
-	
 
 	//Animation
 	if (!place_meeting(x,y+1,oWall))
@@ -72,7 +71,7 @@ function PlayerState_Free()
 	
 	}
 
-	if(key_weapon_attack && equippedWeapon != "")
+	if(key_weapon_attack && equippedWeapon != "") && place_meeting(x,y+1,oWall)
 		state = PLAYERSTATE.ATTACK;
 		
 	if (hsp != 0) image_xscale = sign(hsp);

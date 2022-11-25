@@ -15,8 +15,6 @@ function PlayerState_Attack(_weaponDamage)
 		oGreatsword.image_xscale = oPlayer.image_xscale;
 		image_index = 0;
 		ds_list_clear(hitByAttack);
-		
-		
 	}
 
 	//Use attack hitbox and check for hits
