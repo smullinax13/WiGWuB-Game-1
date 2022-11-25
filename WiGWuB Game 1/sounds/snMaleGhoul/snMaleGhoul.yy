@@ -15,7 +15,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snMaleGhoul.wav",
-  "duration": 0.0,
+  "duration": 0.773152,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
